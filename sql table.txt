@@ -1,0 +1,9 @@
+create table shipcrm_profile 
+(
+profile_id int auto_increment primary key,
+profile_name varchar(20) not null,
+description varchar(100), 
+is_active tinyint default 1,
+created_at timestamp default current_timestamp
+);
+
